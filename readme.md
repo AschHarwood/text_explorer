@@ -28,4 +28,4 @@ One caveat: I fundamentally disagree that news outlets can be ranked on a single
 
 ### LDA Clustering with Gensim and pyLDAvis
 
-(https://nbviewer.jupyter.org/github/AschHarwood/text_explorer/blob/main/analysis/genism_full_corpus_3.8.21.ipynb#topic=0&lambda=1&term=){:target="_blank"}
+[LDA Clusting with Gensim and pyLDAvis](https://nbviewer.jupyter.org/github/AschHarwood/text_explorer/blob/main/analysis/genism_full_corpus_3.8.21.ipynb#topic=0&lambda=1&term=){:target="_blank"}
