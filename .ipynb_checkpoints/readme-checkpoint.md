@@ -23,3 +23,9 @@ While news may not be the useful corpus for creating advocacy messages, the tech
 To try and identify meaningful distinction, I segmented my analysis based on the publisher and the political affiliation of each source (left, right, center). 
 
 One caveat: I fundamentally disagree that news outlets can be ranked on a single political-bias continuum. Journalist standards  fundamentally differ between organizations like the New York Times and Reuters, which make efforts to apply best practices, and organizations like Fox News and Breitbart, which make little, if any effort, to do so. Nevertheless, these distinctions provide a quick and dirty way to segment news and compare content patterns.
+
+## The Tools and Methods
+
+### LDA Clustering with Gensim and pyLDAvis
+
+https://nbviewer.jupyter.org/github/AschHarwood/text_explorer/blob/main/analysis/genism_full_corpus_3.8.21.ipynb#topic=0&lambda=1&term=
