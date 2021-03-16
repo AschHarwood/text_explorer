@@ -26,6 +26,12 @@ One caveat: I fundamentally disagree that news outlets can be ranked on a single
 
 ## The Tools and Methods
 
-### LDA Clustering with Gensim and pyLDAvis
+[LDA with Gensim and pyLDAvis](https://nbviewer.jupyter.org/github/AschHarwood/text_explorer/blob/main/analysis/genism_full_corpus_3.8.21.ipynb#topic=0&lambda=1&term=)
 
-(https://nbviewer.jupyter.org/github/AschHarwood/text_explorer/blob/main/analysis/genism_full_corpus_3.8.21.ipynb#topic=0&lambda=1&term=){:target="_blank"}
+This notebook uses Latent Dirichlet Allocation to cluster similar documents and returns unigrams for each cluster. The models can be explored using an interactive visualization created pyLDAvis.
+
+[Moral Foundations Analysis of Right, Center, and Left Political News](https://nbviewer.jupyter.org/github/AschHarwood/text_explorer/blob/main/analysis/moral_foundations_analysis.ipynb)
+
+This notebooks applies moral foundation theory by using a bag-of-words approach and counting the usage of "morally-loaded" language. It uses a dictionary derived from moral foundations theory
+
+
