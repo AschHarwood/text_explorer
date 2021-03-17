@@ -35,3 +35,12 @@ This notebook uses Latent Dirichlet Allocation to cluster similar documents and 
 This notebooks applies moral foundation theory by using a bag-of-words approach and counting the usage of "morally-loaded" language. It uses a dictionary derived from moral foundations theory
 
 
+[Applying BERT for Topic Modeling with Bigrams](https://nbviewer.jupyter.org/github/AschHarwood/text_explorer/blob/main/analysis/Bertopic_vis_3.9.21.ipynb)
+
+This notebook utilizes BERT transformers to cluster similar documents based on bigrams. It contains a visual tool for exploring those clusters. You can view the topics and their bigrams in a csv format:
+
+[Left News Topics](https://github.com/AschHarwood/text_explorer/blob/main/analysis/left_topics_rename.csv)
+
+[Right News Topics](https://github.com/AschHarwood/text_explorer/blob/main/analysis/right_topics_bertopic.csv)
+
+You can also view the visual tool to explore right topics [here](https://htmlpreview.github.io/?https://github.com/AschHarwood/text_explorer/blob/main/analysis/right_bertopic_model.html)
