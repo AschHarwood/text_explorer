@@ -16,7 +16,7 @@ This repository represents an exploration of tools and strategies to extract mea
 
 ## The Data
 
-I used a political news dataset I developed for a number of previous projects. It contains roughly 200,000 artiles published in 2019 from 12 sources. 
+I used a political news dataset I developed for a number of previous projects. It contains roughly 200,000 artiles published in 2019 from 12 sources. Download the entire lightly processed dataset [here](https://politicalnews.nyc3.digitaloceanspaces.com/domain_stop_removed_bias_text.csv)
 
 While news may not be the useful corpus for creating advocacy messages, the techniques should apply to any corpus we can analyze. Further, news stories are inherently abstractions (in the best case scenario) of reality. 
 
@@ -44,3 +44,11 @@ This notebook utilizes BERT transformers to cluster similar documents based on b
 [Right News Topics](https://github.com/AschHarwood/text_explorer/blob/main/analysis/right_topics_bertopic.csv)
 
 You can also view the visual tool to explore right topics [here](https://htmlpreview.github.io/?https://github.com/AschHarwood/text_explorer/blob/main/analysis/right_bertopic_model.html)
+
+Download the topic models below:
+
+[Left](https://politicalnews.nyc3.digitaloceanspaces.com/models/left_gdelt_bertopic_model)
+
+[Analyzing Emotional Language in Center, Left, and Right News]()
+
+The following notebook uses a bag of words approach and the NRCLex package to calculate the percentage of words in each news corpus that are associated with the following emotions: `fear, anger, trust, surprise, positive, negative, sadness, disgust, joy, anticipation`.

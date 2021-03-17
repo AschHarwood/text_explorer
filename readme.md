@@ -48,3 +48,7 @@ You can also view the visual tool to explore right topics [here](https://htmlpre
 Download the topic models below:
 
 [Left](https://politicalnews.nyc3.digitaloceanspaces.com/models/left_gdelt_bertopic_model)
+
+[Analyzing Emotional Language in Center, Left, and Right News]()
+
+The following notebook uses a bag of words approach and the NRCLex package to calculate the percentage of words in each news corpus that are associated with the following emotions: `fear, anger, trust, surprise, positive, negative, sadness, disgust, joy, anticipation`.
