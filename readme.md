@@ -41,7 +41,7 @@ This notebook utilizes BERT transformers to cluster similar documents based on b
 You can also view the visual tool to explore right topics [here](https://htmlpreview.github.io/?https://github.com/AschHarwood/text_explorer/blob/main/analysis/right_bertopic_model.html)
 
 
-#### [Analyzing Emotional Language in Center, Left, and Right News](https://nbviewer.jupyter.org/github/AschHarwood/text_explorer/blob/main/analysis/NRCLex_analysis.ipynb)
+#### [Analyzing Emotional Language in Center, Left, and Right News](https://nbviewer.jupyter.org/github/AschHarwood/text_explorer/blob/main/analysis/notebooks/NRCLex_analysis.ipynb)
 
 The following notebook uses a bag of words approach and the NRCLex package to calculate the percentage of words in each news corpus that are associated with the following emotions: `fear, anger, trust, surprise, positive, negative, sadness, disgust, joy, anticipation`.
 
