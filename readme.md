@@ -25,34 +25,27 @@ One caveat: I fundamentally disagree that news outlets can be ranked on a single
 
 ## The Tools and Methods
 
-#### [LDA with Gensim and pyLDAvis](https://nbviewer.jupyter.org/github/AschHarwood/text_explorer/blob/main/analysis/genism_full_corpus_3.8.21.ipynb#topic=0&lambda=1&term=)
+#### [LDA with Gensim and pyLDAvis](https://nbviewer.jupyter.org/github/AschHarwood/text_explorer/blob/main/analysis/notebooks/genism_full_corpus_3.8.21.ipynb)
 
 This notebook uses Latent Dirichlet Allocation to cluster similar documents and returns unigrams for each cluster. The models can be explored using an interactive visualization created pyLDAvis.
 
-#### [Moral Foundations Analysis of Right, Center, and Left Political News](https://nbviewer.jupyter.org/github/AschHarwood/text_explorer/blob/main/analysis/moral_foundations_analysis.ipynb)
+#### [Moral Foundations Analysis of Right, Center, and Left Political News](https://nbviewer.jupyter.org/github/AschHarwood/text_explorer/blob/main/analysis/notebooks/moral_foundations_analysis.ipynb)
 
 This notebooks applies moral foundation theory by using a bag-of-words approach and counting the usage of "morally-loaded" language. It uses a dictionary derived from moral foundations theory
 
 
-#### [Applying BERT for Topic Modeling with Bigrams](https://nbviewer.jupyter.org/github/AschHarwood/text_explorer/blob/main/analysis/Bertopic_vis_3.9.21.ipynb)
+#### [Applying BERT for Topic Modeling with Bigrams](https://nbviewer.jupyter.org/github/AschHarwood/text_explorer/blob/main/analysis/notebooks/Bertopic_vis_3.9.21.ipynb)
 
-This notebook utilizes BERT transformers to cluster similar documents based on bigrams. It contains a visual tool for exploring those clusters. You can view the topics and their bigrams in a csv format:
-
-[Left News Topics](https://github.com/AschHarwood/text_explorer/blob/main/analysis/left_topics_rename.csv)
-
-[Right News Topics](https://github.com/AschHarwood/text_explorer/blob/main/analysis/right_topics_bertopic.csv)
+This notebook utilizes BERT transformers to cluster similar documents based on bigrams. It contains a visual tool for exploring those clusters. 
 
 You can also view the visual tool to explore right topics [here](https://htmlpreview.github.io/?https://github.com/AschHarwood/text_explorer/blob/main/analysis/right_bertopic_model.html)
 
-Download the topic models below:
-
-[Left](https://politicalnews.nyc3.digitaloceanspaces.com/models/left_gdelt_bertopic_model)
 
 #### [Analyzing Emotional Language in Center, Left, and Right News](https://nbviewer.jupyter.org/github/AschHarwood/text_explorer/blob/main/analysis/NRCLex_analysis.ipynb)
 
 The following notebook uses a bag of words approach and the NRCLex package to calculate the percentage of words in each news corpus that are associated with the following emotions: `fear, anger, trust, surprise, positive, negative, sadness, disgust, joy, anticipation`.
 
-View the interactive chart [here](https://htmlpreview.github.io/?https://github.com/AschHarwood/text_explorer/blob/main/analysis/emotion_comparison.html)
+View the interactive chart [here](https://htmlpreview.github.io/?https://github.com/AschHarwood/text_explorer/blob/main/analysis/html_files/right_bertopic_model.html)
 
 #### [Applying Transformers and Explainable AI to Identify Partisan Keywords](https://nbviewer.jupyter.org/github/AschHarwood/text_explorer/blob/main/analysis/notebooks/BERT_Explain%20%281%29.ipynb)
 
